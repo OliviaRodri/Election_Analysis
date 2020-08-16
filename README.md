@@ -1,33 +1,31 @@
 # Election_Analysis
 
 ## Project Overview
-A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local congressional election.
+This analysis is for a Colorado Board of Elections employee, who needed help to complete the election audit of a local congressional election.
 
-1. Calculate the total number of votes cast.
-2. Get a complete list of candidates who received votes.
-3. Calculate the total number of votes each candidate received.
-4. Calculate the percentage of votes each candidate won.
-5. Determine the winner of the election based on popular vote.
+### Election Audit Results
 
-## Resources
-- Data Source: election_results.csv
-- Software: Python 3.6.1, Visual Studio Code, 1.38.1
+- The total votes cast in the Colorado congressional election was 369,711.
+  
+ - The following results are for the counties, their percentage of total votes, and the number of votes:
+   *  Jefferson: 10.5% (38,855)
+   *  Denver: 82.8% (306,055)
+   *  Arapahoe: 6.7% (24,801)
 
-## Summary
-The analysis of the election show that:
-- There were "x" votes cast in the election.
-- The candidates were:
-    - Candidate 1
-    - Candidate 2
-    - Candidate 3
-- The candidate results were:
-    - Candidate 1 received "x%" of the vote and "y" number of votes.
-    - Candidate 2 received "x%" of the vote and "y" number of votes.
-    - Candidate 3 received "x%" of the vote and "y" number of votes.
- - The winner of the election was:
-    - Candidate (1, 2, or 3), who received "x%" of the vote and "y" number of votes.
-   
- ## Challenge Overview
+- The county with the largest number of votes was Denver.
  
- ## Challenge Summary
+- The election results for each candidate, their percentage of total votes, and their number of votes are as follows:
  
+   * Charles Casper Stockham: 23.0% (85,213)
+   * Diana DeGette: 73.8% (272,892)
+   * Raymon Anthony Doane: 3.1% (11,606)
+
+- The candidate winner for this election was:
+  *  **Diana** **DeGette** with a  winning vote count of **272**,**892**, and a winning percentage of **73**.**8**%.
+ 
+
+
+## Election Audit Summary
+In summary this analysis' script was done in a general that can be used for other elections. As long as the raw data has the same format, a number of counties and number of candidates will not impact the scripts functionality. There modifications that may improve this analysis:
+   1. The number of votes and percentage of votes for each candidate be presented by county.
+   2. The candidate results by county be presented with a stacked bar graph, to visualize the results.
