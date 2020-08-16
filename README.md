@@ -26,6 +26,6 @@ This analysis is for a Colorado Board of Elections employee, who needed help to 
 
 
 ## Election Audit Summary
-In summary, this analysis' script was done in a general format that could be used for other elections. As long as the raw data has the same format, a number of counties and number of candidates will not impact the scripts functionality. The modifications that may improve this analysis are:
+In summary, this analysis' script was done in a general format that could be used for other elections. As long as the raw data has the same format, the number of counties and number of candidates will not impact the scripts functionality. The modifications that may improve this analysis are:
    1. The number of votes and percentage of votes for each candidate be presented by county.
    2. The candidate results by county be presented with a stacked bar graph, to visualize the results.
